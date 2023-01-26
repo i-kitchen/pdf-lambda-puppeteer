@@ -9,9 +9,9 @@
     "deploy-prod": "sls deploy --stage prod"
   },
   "dependencies": {
-    "chrome-aws-lambda": "^3.1.1",
+    "chrome-aws-lambda": "^10.1.0",
     "handlebars": "^4.7.6",
-    "puppeteer-core": "^3.3.0",
+    "puppeteer-core": "^10.1.0",
     "source-map-support": "^0.5.10"
   },
   "devDependencies": {
@@ -27,7 +27,5 @@
     "typescript": "^3.2.4",
     "webpack": "^4.29.0",
     "webpack-node-externals": "^1.7.2"
-  },
-  "author": "Keshav Kumaresan <keshavkumaresan1002@gmail.com>",
-  "license": "Unlicense"
+  }
 }

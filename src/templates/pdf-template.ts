@@ -26,7 +26,7 @@ const html: string = `
     </div>
     <br /><br />
     <div>
-      Hi, My Name is {{name}}, Welcome to PDF generation :)
+      We can pass data into templates easily: {{bigData}}
     </div>
     <div class="page-break">
       This content is in another page thanks to the page-break-before css

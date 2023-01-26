@@ -10,7 +10,7 @@ export class PDFGenerator {
    */
   static getPDF: GeneratorFunction = async (event) => {
     try {
-      const html = getTemplate({ name: "Keshav" });
+      const html = getTemplate({ bigData: "Example template variable" });
       const options = {
         format: "A4",
         printBackground: true,
